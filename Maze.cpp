@@ -275,7 +275,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		DeleteObject(wall);
 		DeleteObject(box);
 
-        PostQuitMessage(0);
+        	PostQuitMessage(0);
 
         break;
     default:
